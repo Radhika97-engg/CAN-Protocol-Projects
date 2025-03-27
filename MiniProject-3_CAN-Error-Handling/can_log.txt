@@ -1,0 +1,40 @@
+*******CAN LOG MESSAGE*******
+ID: 0x5A3
+DLC  : 4
+DATA: 0x11 0x22 0x23 0x44 
+Original CRC: 0xE6
+Recalculated CRC: 0xF6
+*******CAN LOG MESSAGE*******
+ID: 0x5A3
+DLC  : 4
+DATA: 0x91 0x22 0x33 0x44 
+Original CRC: 0xE6
+Recalculated CRC: 0x66
+Error type: Single bit error
+******* CAN LOG MESSAGE *******
+ID: 0x5A3
+DLC: 4
+DATA: 0x91 0x22 0x33 0x44 
+Original CRC: 0xE6
+Recalculated CRC: 0x66
+Error type: Single Bit Error
+-------------------------------
+
+******* CAN LOG MESSAGE *******
+ID: 0x5A3
+DLC: 4
+DATA: 0x11 0x22 0x31 0x44 
+Original CRC: 0xE6
+Recalculated CRC: 0xE4
+Error type: Single Bit Error
+-------------------------------
+
+******* CAN LOG MESSAGE *******
+ID: 0x5A3
+DLC: 4
+DATA: 0x11 0x22 0x37 0x44 
+Original CRC: 0xE6
+Recalculated CRC: 0xE2
+Error type: Single Bit Error
+-------------------------------
+
