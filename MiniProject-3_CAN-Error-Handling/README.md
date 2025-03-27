@@ -43,8 +43,8 @@ Recalculated CRC: 0x66
 Error Type: Single Bit Error
 
 ## Potential Enhancements
-Classify all 5 CAN error types (bit, stuff, form, ack, CRC)
-Add real-time error logging using timestamps
-Implement a visual dashboard for error stats
-Simulate acknowledgment errors across nodes
-Extend support to CAN-FD frames
+1. Classify all 5 CAN error types (bit, stuff, form, ack, CRC).
+2. Add real-time error logging using timestamps.
+3. Implement a visual dashboard for error logging.
+4. Simulate acknowledgment errors across nodes.
+5. Extend support to CAN-FD frames.
