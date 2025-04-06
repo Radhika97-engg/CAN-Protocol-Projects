@@ -34,13 +34,13 @@ This simulation demonstrates how messages are structured, packed into a 32-bit h
 | 12–0     | Reserved   | Currently unused                             |
 
 ## Project Structure
-MiniProject-4_CAN-FD-Simulator/ 
-├── main.c # Driver: encode → decode → validate 
-├── CAN_type.h # Enum for CAN mode and flag definitions
-├── CAN_message.h/.c # Message structure + validation functions 
-├── CAN_encoder.h/.c # Header packing + binary printer 
-├── CAN_decoder.h/.c # Header unpacking, flag restoration 
-├── README.md # Project documentation
+MiniProject-4_CAN-FD-Simulator/ <br>
+├── main.c # Driver: encode → decode → validate <br>
+├── CAN_type.h # Enum for CAN mode and flag definitions<br>
+├── CAN_message.h/.c # Message structure + validation functions <br>
+├── CAN_encoder.h/.c # Header packing + binary printer <br>
+├── CAN_decoder.h/.c # Header unpacking, flag restoration <br>
+├── README.md # Project documentation<br>
 
 ## Encode → Decode Flow
 CAN_message msg = create_message(...);          // Create CAN or CAN FD message
@@ -65,11 +65,11 @@ Platform: Windows / Linux
 Tools: Code:GCC
 
 ## What I Learned
-Structuring flexible message formats using struct
-Bitwise header encoding/decoding
-Flag masking and shifting logic
-Designing clean modular code (message.c, encoder.c, decoder.c)
-Validating message fields dynamically before transmission
+Structuring flexible message formats using struct <br>
+Bitwise header encoding/decoding<br>
+Flag masking and shifting logic<br>
+Designing clean modular code (message.c, encoder.c, decoder.c)<br>
+Validating message fields dynamically before transmission<br>
 
 
 
