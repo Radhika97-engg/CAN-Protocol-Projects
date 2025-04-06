@@ -42,12 +42,12 @@ MiniProject-4_CAN-FD-Simulator/ <br>
 ├── CAN_decoder.h/.c # Header unpacking, flag restoration <br>
 ├── README.md # Project documentation<br>
 
-## Encode → Decode Flow <br>
-CAN_message msg = create_message(...);          // Create CAN or CAN FD message <br>
-encoded_message enc = encode_CAN_message(msg);  // Pack into 32-bit header + data <br>
-CAN_message decoded = decode_CAN_message(enc);  // Extract all fields back <br>
-print_message_info(decoded);                    // Show decoded fields <br>
-print_binary(enc.header);                       // Debug the header<br>
+## Encode → Decode Flow  <br>
+CAN_message msg = create_message(...);                // Create CAN or CAN FD message <br>
+encoded_message enc = encode_CAN_message(msg);        // Pack into 32-bit header + data <br>
+CAN_message decoded = decode_CAN_message(enc);        // Extract all fields back <br>
+print_message_info(decoded);                          // Show decoded fields <br>
+print_binary(enc.header);                             // Debug the header<br>
 
 Original message<br>
 ======Mode: CAN FD=======<br>
