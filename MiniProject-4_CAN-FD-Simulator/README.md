@@ -5,12 +5,12 @@ This project simulates the encoding and decoding of **CAN FD (Flexible Data Rate
 This simulation demonstrates how messages are structured, packed into a 32-bit header, and decoded — supporting both **Standard CAN** and **CAN FD** modes with `FDF` and `BRS` flags.
 
 ## Project Goals
-- Support both **Standard CAN** and **CAN FD**
-- Pack message metadata (ID, DLC, mode, flags) into a 32-bit header
-- Handle data payload up to 64 bytes
-- Encode and decode messages properly
-- Validate message parameters and simulate CRC field
-- Print the packed header in **binary** for debugging
+- Support both **Standard CAN** and **CAN FD**<br>
+- Pack message metadata (ID, DLC, mode, flags) into a 32-bit header<br>
+- Handle data payload up to 64 bytes<br>
+- Encode and decode messages properly<br>
+- Validate message parameters and simulate CRC field<br>
+- Print the packed header in **binary** for debugging<br>
 
 ## Key Concepts Demonstrated
 
@@ -42,27 +42,27 @@ MiniProject-4_CAN-FD-Simulator/ <br>
 ├── CAN_decoder.h/.c # Header unpacking, flag restoration <br>
 ├── README.md # Project documentation<br>
 
-## Encode → Decode Flow
-CAN_message msg = create_message(...);          // Create CAN or CAN FD message
-encoded_message enc = encode_CAN_message(msg);  // Pack into 32-bit header + data
-CAN_message decoded = decode_CAN_message(enc);  // Extract all fields back
-print_message_info(decoded);                    // Show decoded fields
-print_binary(enc.header);                       // Debug the header
+## Encode → Decode Flow <br>
+CAN_message msg = create_message(...);          // Create CAN or CAN FD message <br>
+encoded_message enc = encode_CAN_message(msg);  // Pack into 32-bit header + data <br>
+CAN_message decoded = decode_CAN_message(enc);  // Extract all fields back <br>
+print_message_info(decoded);                    // Show decoded fields <br>
+print_binary(enc.header);                       // Debug the header<br>
 
-Original message
-======Mode: CAN FD=======
-ID : 0x5A3
-Length : 4
-CRC : 0xABCD
-Data : 0x11 0x22 0x33 0x44 
-FDF(Flexible Data Format) is SET
-BRS(Bit Switch Rate) is SET
-Header in Binary: 10110100011000010000000000000000
+Original message<br>
+======Mode: CAN FD=======<br>
+ID : 0x5A3 <br>
+Length : 4<br>
+CRC : 0xABCD<br>
+Data : 0x11 0x22 0x33 0x44 <br>
+FDF(Flexible Data Format) is SET<br>
+BRS(Bit Switch Rate) is SET<br>
+Header in Binary: 10110100011000010000000000000000<br>
 
 ## Tech Stack
-Language: C
-Platform: Windows / Linux
-Tools: Code:GCC
+Language: C<br>
+Platform: Windows / Linux<br>
+Tools: Code:GCC<br>
 
 ## What I Learned
 Structuring flexible message formats using struct <br>
