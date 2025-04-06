@@ -14,4 +14,4 @@
 - [ ] CAN Database (DBC)-like simulation
 
 
-🗓 Last Updated: April 6, 2025 
+Last Updated: April 6, 2025 
