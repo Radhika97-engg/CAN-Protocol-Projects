@@ -1,0 +1,8 @@
+# Ignore all .exe files across the repo
+*.exe
+
+# Optional - ignore logs or compiled files
+*.log
+*.out
+*.o
+
