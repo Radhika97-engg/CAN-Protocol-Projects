@@ -1,17 +1,15 @@
-# Project Milestones 
+# Updated Project Milestones
+✅ Completed
+MiniProject-1: CAN Frame Encoder/Decoder
+MiniProject-2: Random CAN Bus Simulation with file-based logging
+MiniProject-3: CRC-Based Error Detection & Classification
+MiniProject-4: CAN FD Message Simulator
 
-## Completed
+## Upcoming (Planned in Separate Repository: CANalyzer Projects)
 
-- [x] MiniProject-1: CAN Frame Encoder/Decoder
-- [x] MiniProject-2: Random CAN Bus Simulation with file-based logging
-- [x] MiniProject-3: CRC-Based Error Detection & Classification
-- [x] MiniProject-4: CAN FD Message Simulator
+MiniProject-5: CAN Log Analysis in CANalyzer
+MiniProject-6: Signal Filtering & Export (CSV/MAT)
+MiniProject-7: Trace Window Debugging with DBC
+MiniProject-8: Shortest Way to Export via Graphics Window
 
-## Planned
-
-- [ ] MiniProject-5: Multi-Node CAN Network Emulator
-- [ ] Integrate basic UI/CLI for message construction
-- [ ] CAN Database (DBC)-like simulation
-
-
-Last Updated: April 6, 2025 
+📅 Last Updated: April 9, 2025
