@@ -20,7 +20,7 @@ This repository contains a series of hands-on mini projects simulating various a
 
 ---
 
-## 📌 Highlights
+## Highlights
 
 - Written in pure C
 - Covers bitwise operations, data encoding, error detection
